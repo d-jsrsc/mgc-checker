@@ -1,0 +1,10 @@
+.DS_Store
+npm-debug.log
+test.js
+target
+Cargo*
+src
+scripts
+platforms
+.husky
+.github
