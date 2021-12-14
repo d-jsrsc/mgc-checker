@@ -21,10 +21,10 @@
     "arm64"
   ],
   "optionalDependencies": {
-    "@jsrsc/mgc-checker-darwin-arm64": "^0.1.0",
-    "@jsrsc/mgc-checker-linux-arm64": "^0.1.0",
-    "@jsrsc/mgc-checker-darwin-x64": "^0.1.0",
-    "@jsrsc/mgc-checker-linux-x64": "^0.1.0"
+    "@jsrsc/mgchecker-darwin-arm64": "^0.1.0",
+    "@jsrsc/mgchecker-linux-arm64": "^0.1.0",
+    "@jsrsc/mgchecker-darwin-x64": "^0.1.0",
+    "@jsrsc/mgchecker-linux-x64": "^0.1.0"
   },
   "devDependencies": {
     "cargo-cp-artifact": "^0.1",
