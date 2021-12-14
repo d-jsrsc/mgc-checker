@@ -5,9 +5,6 @@
   "main": "index.node",
   "scripts": {
     "pre-commit": "node scripts/pre-commit.js",
-    "build-debug": "npm run build --",
-    "build-release": "npm run build -- --release",
-    "install": "npm run build-release",
     "test": "cargo test"
   },
   "author": "",
