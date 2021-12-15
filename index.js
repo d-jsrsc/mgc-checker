@@ -1,7 +1,7 @@
 const os = require("os");
 
-const platform = `${os.platform()}-${os.arch()}`;
-const packageName = `@jsrsc/mgchecker-${platform}`;
+const platform = `mgchecker-${os.platform()}-${os.arch()}`;
+const packageName = `@jsrsc/${platform}`;
 
 if (!require("./package.json").optionalDependencies[packageName]) {
   throw "Unsupported platform/architecture: " + platform;

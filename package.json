@@ -18,9 +18,9 @@
     "arm64"
   ],
   "optionalDependencies": {
-    "@jsrsc/mgchecker-darwin-arm64": "^0.1.0",
-    "@jsrsc/mgchecker-darwin-x64": "^0.1.0",
-    "@jsrsc/mgchecker-linux-x64": "^0.1.0"
+    "@jsrsc/mgchecker-darwin-arm64": "^0.7.0",
+    "@jsrsc/mgchecker-darwin-x64": "^0.7.0",
+    "@jsrsc/mgchecker-linux-x64": "^0.7.0"
   },
   "devDependencies": {
     "husky": "^7.0.4",

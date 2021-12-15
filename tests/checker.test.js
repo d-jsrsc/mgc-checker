@@ -3,6 +3,7 @@ const os = require("os");
 const platform = `${os.platform()}-${os.arch()}`;
 
 const checker = require(`../platforms/mgchecker-${platform}`);
+console.log(checker);
 
 describe("matching cities to foods", () => {
   beforeAll(() => {
