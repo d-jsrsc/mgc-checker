@@ -6,4 +6,24 @@ const packageName = `@jsrsc/mgchecker-${platform}`;
 if (!require("./package.json").optionalDependencies[packageName]) {
   throw "Unsupported platform/architecture: " + platform;
 }
-module.exports = require(packageName);
+const checker = require(packageName);
+
+/**
+ * function
+ * return string
+ */
+exports.hello = checker.hello;
+
+/**
+ * function
+ * params Array<String>
+ * return undefind
+ */
+exports.init_sensitive_set = checker.init_sensitive_set;
+
+/**
+ * function
+ * params String
+ * return Boolean
+ */
+exports.has_sensitive_word = checker.has_sensitive_word;

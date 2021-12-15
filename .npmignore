@@ -8,3 +8,4 @@ scripts
 platforms
 .husky
 .github
+package-lock.json
