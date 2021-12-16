@@ -19,11 +19,18 @@ exports.hello = checker.hello;
  * params Array<String>
  * return undefind
  */
-exports.init_sensitive_set = checker.init_sensitive_set;
+exports.initSensitiveSet = checker.initSensitiveSet;
+
+/**
+ * function
+ * params String
+ * params callback(err, Boolean)
+ */
+exports.hasSensitiveWord = checker.hasSensitiveWord;
 
 /**
  * function
  * params String
  * return Boolean
  */
-exports.has_sensitive_word = checker.has_sensitive_word;
+exports.hasSensitiveWordSync = checker.hasSensitiveWordSync;

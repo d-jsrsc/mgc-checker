@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 let distDir = "platforms/mgchecker-darwin-arm64";
 let src = "target/release/libmgchecker.dylib";
 let dist = `${distDir}/index.node`;
-
+fs.unlink(dist);
 fs.copyFileSync(src, dist);
 // const r = execSync(`ls`);
 // console.log('---', r)
